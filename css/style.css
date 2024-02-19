@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html body {
+    background-image: url('../img/gula.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bantuan {
+    background-color: black;
+    opacity: 0.8;
+}
+
+nav {
+    background-color: black;
+    opacity: 0.8;
+    border-bottom: 1px solid wheat;
+    position: relative;
+    z-index: 100;
+}
+
+nav ul li {
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    background-color: rgb(18, 68, 20);
+    border-radius: 20px;
+}
+
+#botton-pesan {
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: rgb(245, 118, 7);
+    color: white;
+}
+
+#footer {
+    background-color: black;
+    opacity: 0.8;
+}
+
